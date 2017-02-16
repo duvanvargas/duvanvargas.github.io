@@ -1,0 +1,79 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,,800,900);
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+
+.title {
+  font-weight: 800;
+  color: transparent;
+  font-size: 120px;
+  background: url("http://phandroid.s3.amazonaws.com/wp-content/uploads/2014/05/rainbow-nebula.jpg") repeat;
+  background-position: 40% 50%;
+  -webkit-background-clip: text;
+  position: relative;
+  text-align: center;
+  line-height: 90px;
+  letter-spacing: -8px;
+}
+
+.subtitle {
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 10px;
+}
+
+.fullheightcontainer{
+  height: 100vh;
+  padding-top: 20%;
+}
+
+
+
+.divider {
+    height:50px;
+}
+
+section {
+    height:100px;
+    padding-top:12px;
+    padding-bottom:10px;
+    overflow:auto;
+}
+
+.bg-1 {
+  background: url('http://phandroid.s3.amazonaws.com/wp-content/uploads/2014/05/rainbow-nebula.jpg') no-repeat center center fixed;
+    color:#fff;
+    background-size:cover;
+}
+  
+.bg-2 {
+  background: url('http://phandroid.s3.amazonaws.com/wp-content/uploads/2014/05/rainbow-nebula.jpg') no-repeat top center fixed;
+    color:#fff;
+    background-size:cover;
+}
+
+.bg-3 {
+  background: url('http://phandroid.s3.amazonaws.com/wp-content/uploads/2014/05/rainbow-nebula.jpg') no-repeat bottom center fixed;
+    color:#fff;
+    background-size:cover;
+}
+
+#footer {
+    height: 60px;
+    background-color:#585858;
+    margin-top:50px;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+#footer a {
+  color:#efefef;
+}
+
