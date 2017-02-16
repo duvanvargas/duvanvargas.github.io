@@ -11,4 +11,13 @@ $(document).ready(function(){
     traY = ((4 * mouseY) / 570) + 50;
     $(".title").css({"background-position": traX + "%" + traY + "%"});
   });
+
+  $('.post-module').hover(function() {
+    $(this).find('.description').stop().animate({
+      height: "toggle",
+      opacity: "toggle"
+    }, 300);
+  });
+
+  
 });
